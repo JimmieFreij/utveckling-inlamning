@@ -1,0 +1,4 @@
+När använder man add respektive commit?
+Vad är pull repektive push?
+När använder man log respektive status?
+Vad är en Git branch och varför är de viktiga?
