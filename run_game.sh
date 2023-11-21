@@ -4,11 +4,11 @@ name="Jimmie_Freij"
 
 echo "$name's program"
 
-mkdir "$name'_labb"
+mkdir ${name}_labb
 
-cp *.java "$name'_labb"
+cp *.java ${name}_labb
 
-cd "$name'_labb"
+cd ${name}_labb
 
 pwd
 
