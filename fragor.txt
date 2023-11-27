@@ -1,4 +1,24 @@
-När använder man add respektive commit?
-Vad är pull repektive push?
-När använder man log respektive status?
-Vad är en Git branch och varför är de viktiga?
+#När använder man add respektive commit?
+add använder man för att lägga till kataloger, filer eller ändringar från sin working directory till staging area.
+Så med add förbereder man det man vill ha med till sin nästa commit.
+
+commit används till att spara det man lagt in i staging area. När man commitat skapas en kopia(snapshot) av
+de ändringar man lagt till i staging area.  
+
+#Vad är pull repektive push?
+Förenklat kan man säga att pull hämtar och push skickar.
+pull hämtar github-repositoryn och uppdaterar min lokala kopia med de ändringar
+i github-katalogen.
+
+push skickar mina lokala ändringar, från min dator, till github-repositoryn.
+
+#När använder man log respektive status?
+log använder man när man vill se alla tidigare commits
+
+status använder man för att se nuvarande status. Om det finns något som inte lagts till i staging area
+eller om det finns något som inte har commitats.
+
+#Vad är en Git branch och varför är de viktiga?
+En branch är en avknoppning från main/master branch. Är bra att använda när man vill testa och göra ändringar utan
+att påverka master. Gör det också möjligt för flera att arbeta på samma uppgift. En fördel är att det påverkar inget 
+om man inte mergear.
